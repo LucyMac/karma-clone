@@ -1,0 +1,217 @@
+/* Reset stylesheet:
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End reset stylesheet*/
+
+/*Box-sizing*/
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/*Navigation section*/
+
+.navigation {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	border-bottom: solid 1px #e0dbd9;
+}
+
+.navigation > .nav-container {
+	width: 810px;
+	height: 70px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 3px;
+}
+
+.logo {
+	margin-top: 1rem;
+	margin-bottom: 1.1rem;
+}
+
+.nav-options {
+	float: right;
+	padding-top: 1.7em;
+}
+
+.nav-options li {
+	display: inline-block;
+	padding-right: 1.7rem;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+.nav-options li a {
+	color: #878080;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+.nav-options li a:hover {
+	color: #333333;
+	text-decoration: none;
+}
+
+#active a {
+	font-weight: 500;
+	color: #333333;
+}
+
+/*Header*/
+
+.masthead {
+	background-image: url(http://thinkful-ed.github.io/karma-clone/img/first-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 45.938rem;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	color: #ffffff;
+	padding: 14em 0;
+	text-align: center;
+}
+
+.masthead-intro {
+	font-size: 3.1rem;
+	font-weight: lighter;
+	line-height: 70px;
+	margin-top: 1em;
+}
+
+.masthead-heading {
+	font-size: 1.6rem;
+	font-weight: lighter;
+	line-height: 50px;
+	margin-bottom: 0.5em;
+}
+
+.masthead-button a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a.masthead-button:hover {
+	background-color: #D9400E;
+}
+
+.masthead-button {
+	text-align: center;
+	height: 3em;
+	width: 9em;
+	border-radius: 0.2em;
+	background-color: #F15B2A;
+	color: #ffffff;
+	font-size: 1.1em;
+	border: none;
+}
+
+/*Karma features */
+
+.features {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	color: #333333;
+	text-align: center;
+	padding-top: 8rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 4rem;
+}
+
+.features h2 {
+	font-size: 2.8rem;
+	font-weight: lighter;
+}
+
+.features-list li {
+	display: inline-block;
+	padding: 3rem 2rem;
+}
+
+.feature-caption {
+	font-size: 1.5rem;
+	line-height: 50px;
+	margin-top: 1rem;
+	margin-bottom: 0.5em;
+}
+
+/*footer*/
+
+.footer {
+	max-width: 810px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	color: #333333;
+	text-align: center;
+	padding: 1rem 2rem;
+	border-top: solid 1px #e0dbd9;
+}
+
+.social li {
+	display: inline-block;
+	margin: 1rem 0.5rem;
+	border: solid 1px #e0dbd9;
+	border-radius: 100%;
+	padding: 0.6rem;
+}
+
+.trademark {
+	font-size: 0.8rem;
+	color: #878080;
+	font-weight: lighter;
+	margin-top: 1rem;
+	margin-bottom: 8.5rem;
+}
