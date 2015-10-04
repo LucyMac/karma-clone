@@ -208,6 +208,11 @@ a.masthead-button:hover {
 	padding: 0.6rem;
 }
 
+.social img {
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
 .trademark {
 	font-size: 0.8rem;
 	color: #878080;
